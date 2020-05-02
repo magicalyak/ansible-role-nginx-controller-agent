@@ -9,6 +9,17 @@ Requirements
 *   [NGINX Plus](https://www.nginx.com/products/nginx/)
 *   [NGINX Controller](https://www.nginx.com/products/nginx-controller/)
 
+Installation
+------------
+
+**Ansible Galaxy**
+
+Use `ansible-galaxy collection install nginxinc.nginx_controller` to install the latest stable release of the [collection](https://github.com/nginxinc/ansible-collection-nginx_controller) on your system.
+
+**Git**
+
+Use `git clone --recurse-submodules https://github.com/nginxinc/ansible-collection-nginx_controller.git` to pull the latest edge commit of the collection from GitHub.
+
 Role Variables
 --------------
 
@@ -97,7 +108,7 @@ You can also pass/override any variables by passing a `yaml` file containing any
 License
 -------
 
-[Apache License, Version 2.0](./LICENSE)
+[Apache License, Version 2.0](https://github.com/nginxinc/ansible-role-nginx-controller-agent/blob/master/LICENSE)
 
 Author Information
 ------------------
